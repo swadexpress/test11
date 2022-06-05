@@ -1,21 +1,7 @@
-//
-//  ContentView.swift
-//  test
-//
-//  Created by kawsar khan on 4/6/22.
-//
-
-import SwiftUI
-
-struct ContentView: View {
-    var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
+echo "# test11" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/swadexpress/test11.git
+git push -u origin main
